@@ -1,5 +1,6 @@
 public class Parent
 {
+  /*Here our Teamlead can change anything*/
   int i = 100; 
 //int k = 98;
 static int j = 1000; 
@@ -19,4 +20,5 @@ System.out.println("Going for a walk");
     walk();
   }*/
 
+  /*Here our Teamlead can change anything*/
 }
