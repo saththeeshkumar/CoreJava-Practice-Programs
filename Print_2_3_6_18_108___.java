@@ -14,11 +14,12 @@ public class Print_2_3_6_18_108___ {
 		while (true) {
 			int k = i * j;
 			System.out.print(k + " ");
-			i = j;
-			j = k;
-			if (j == 108) {    // -----> choice
+			if (k >= 108) {    // -----> choice
 				break;
 			} 
+			i = j;
+			j = k;
+			
 		}
 
 	}

@@ -10,10 +10,10 @@ public class Print_2_6_11_17_24___ {
 	void printabove() {
 		int i = 2;
 		int j = 4;
-		System.out.println(i);
+		System.out.print(i+" ");
 		while (true) {
 			int k = i + j;
-			System.out.println(k);
+			System.out.print(k+" ");
 			i = k;
 			j++;
 			if (i >= 24) { //  ------> choice

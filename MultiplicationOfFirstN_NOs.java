@@ -9,15 +9,14 @@ public class MultiplicationOfFirstN_NOs {
 	}
 	//1*2*3*4*5
 	void Multiplication() {
-		  int no = 1;
+		int no = 1;
 		int total = 1;
-	      while(no<=5) {
-	    	   total = no * total;
-	    	  no++;
-	      }
-       System.out.println(total);
+		while (no <= 5) {
+			total = no * total;
+			no++;
+		}
+		System.out.println(total);
 	}
-
 
 	}
 

@@ -11,14 +11,15 @@ public class Print_13_25_51_101_203___ {
 		int i = 13;
 		System.out.print(i + " ");
 		while (true) {
-			int j = (i * 2) - 1;
-			System.out.print(j + " ");
-			int k = (j * 2) + 1;
+			 i = (i * 2) - 1;
+			System.out.print(i + " ");
+			int k = (i * 2) + 1;
 			System.out.print(k + " ");
-			i = k;
-			if (i == 203) {    // ------> choice
+			if (k >= 203) {    // ------> choice
 				break;
 			} 
+			i = k;
+		
 		}
 
 	}

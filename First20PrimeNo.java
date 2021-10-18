@@ -1,16 +1,16 @@
 package simpleprograms;
 
-public class FindingPrimeNoUpto_20 {
+public class First20PrimeNo {
 
 	public static void main(String[] args) {
-
-		FindingPrimeNoUpto_20 pn = new FindingPrimeNoUpto_20();
-		pn.findPrimeNo();
+		First20PrimeNo obj = new First20PrimeNo();
+		obj.first20primeno();
 	}
 
-	void findPrimeNo() {
-
-		for (int i = 2; i <= 20; i++) {
+	void first20primeno() {
+		int i = 1;
+		int count = 1;
+		while (count <= 20) {
 			boolean prime = true;
 
 			for (int j = 2; j < i; j++) {
@@ -21,7 +21,9 @@ public class FindingPrimeNoUpto_20 {
 			}
 			if (prime == true) {
 				System.out.println(i + " is a prime number");
+				count++;
 			}
+			i++;
 		}
 	}
 }

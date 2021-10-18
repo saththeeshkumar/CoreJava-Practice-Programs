@@ -15,11 +15,12 @@ public class Print_3_7_16_35___ {
 		while (true) {
 			int k = (i * 2) + j;
 			System.out.print(k + " ");
-			i = k;
-			j++;
-			if (i == 35) {   //   ----->  choice
+			if (k >= 35) {   //   ----->  choice
 				break;
 			}
+			i = k;
+			j++;
+		
 
 		}
 

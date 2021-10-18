@@ -13,10 +13,11 @@ public class Print_15_31_63_127_255___ {
 		while (true) {
 			int k = (i * 2) + 1;
 			System.out.print(k + " ");
-			i = k;
-			if (i == 255) {    // -----> choice
+			
+			if (k >= 255) {    // -----> choice
 				break;
 			} 
+			i = k;
 		}
 	}
 }

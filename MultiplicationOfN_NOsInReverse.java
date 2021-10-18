@@ -7,13 +7,13 @@ public class MultiplicationOfN_NOsInReverse {
 		obj.Multiplication();
 	}
 	void Multiplication() {
-		  int no = 5;
+		int no = 5;
 		int total = 1;
-	      while(no>=1) {
-	    	   total = no * total;
-	    	  no--;
-	      }
-     System.out.println(total);
+		while (no >= 1) {
+			total = no * total;
+			no--;
+		}
+		System.out.println(total);
 	}
 
 }
